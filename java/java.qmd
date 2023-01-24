@@ -1,7 +1,10 @@
 ---
-title: "wikilis"
+title: "Java SE"
 ---
 
-This is a java qmd
+# ¿Que es Java?
 
-my first web
+Java es un lenguaje de programación de alto nivel que se utiliza para crear aplicaciones de software para computadoras y dispositivos móviles. Es un lenguaje de programación orientado a objetos, lo que significa que se basa en la idea de "objetos" que tienen propiedades y métodos. Java también es un lenguaje de programación independiente de plataforma, lo que significa que el mismo código puede ejecutarse en diferentes sistemas operativos sin necesidad de cambios. Es ampliamente utilizado en la industria para desarrollar aplicaciones de escritorio, juegos y aplicaciones web.
+
+# ¿Para que sirve Java?
+

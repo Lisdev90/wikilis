@@ -2,34 +2,36 @@ project:
   type: website
 
 website:
-  title: "wikilis"
+  title: "Wiki Lis"
 
 
   navbar:
     background: secondary
     style: "floating"
     search: true
-    left:
+    right:
       - text: Home
         file: index.qmd
       - text: about 
         file: about.qmd
       - sidebar:java
-      
+      - text: Vocabulary
+        file: vocabulary/vocabulary.qmd
+
+  
   sidebar:
     - id: "java"
-      title: "Linux OS" 
+      title: "Java SE" 
       border: true
       collapse-level: 1
       background: none
       style: "floating"
       contents: 
-        - text: "Linux OS"
+        - text: "Java"
         - text: "---"  
-        - section: "Linux: concepts"
+        - section: "Java: concepts"
           contents: 
             - java/java.qmd
-
 
 
 format:
@@ -37,6 +39,3 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-
