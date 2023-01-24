@@ -1,0 +1,42 @@
+project:
+  type: website
+
+website:
+  title: "wikilis"
+
+
+  navbar:
+    background: secondary
+    style: "floating"
+    search: true
+    left:
+      - text: Home
+        file: index.qmd
+      - text: about 
+        file: about.qmd
+      - sidebar:java
+      
+  sidebar:
+    - id: "java"
+      title: "Linux OS" 
+      border: true
+      collapse-level: 1
+      background: none
+      style: "floating"
+      contents: 
+        - text: "Linux OS"
+        - text: "---"  
+        - section: "Linux: concepts"
+          contents: 
+            - java/java.qmd
+
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
