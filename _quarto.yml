@@ -35,6 +35,21 @@ website:
             - java/java.qmd
 
 
+    - id: "react"
+      title: "React JS" 
+      border: true
+      collapse-level: 1
+      background: none
+      style: "floating"
+      contents: 
+        - text: "React"
+        - text: "---"  
+        - section: "React: concepts"
+          contents: 
+            - react/react.qmd
+
+
+
 format:
   html:
     theme: cosmo
