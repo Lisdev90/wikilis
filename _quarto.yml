@@ -6,19 +6,20 @@ website:
 
 
   navbar:
-    background: secondary
+    background: purple
     style: "floating"
     search: true
-    right:
+    left:
       - text: Home
-        file: index.qmd
-      - text: about 
-        file: about.qmd
-      - sidebar:java
-      - text: Vocabulary
-        file: vocabulary/vocabulary.qmd
+        menu:
+        - about.qmd
+        - java/java.qmd
+        - react/react.qmd
+        - scrum/scrum.qmd
+        - quarto/quarto.qmd
+        - vocabulary/vocabulary.qmd
 
-  
+
   sidebar:
     - id: "java"
       title: "Java SE" 
