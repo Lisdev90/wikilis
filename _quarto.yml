@@ -1,14 +1,27 @@
+
 project:
   type: website
 
-website:
-  title: "Wiki Lis"
 
+website:
+  title: Wiki Lis
+  #cookie-consent:
+  #  type: express
+  #  style: headline
+  #  palette: purple
+
+  
+  repo-url: https://github.com/Lisdev90
+  repo-actions: [edit, issue]
 
   navbar:
-    background: purple
+    background: turquoise
     style: "floating"
     search: true
+    right: 
+      - LinkedIn
+      - Twitter
+          
     left:
       - text: Home
         menu:
@@ -17,41 +30,26 @@ website:
         - react/react.qmd
         - scrum/scrum.qmd
         - quarto/quarto.qmd
-        - vocabulary/vocabulary.qmd
-
-
-  sidebar:
-    - id: "java"
-      title: "Java SE" 
-      border: true
-      collapse-level: 1
-      background: none
-      style: "floating"
-      contents: 
-        - text: "Java"
-        - text: "---"  
-        - section: "Java: concepts"
-          contents: 
-            - java/java.qmd
-
-
-    - id: "react"
-      title: "React JS" 
-      border: true
-      collapse-level: 1
-      background: none
-      style: "floating"
-      contents: 
-        - text: "React"
-        - text: "---"  
-        - section: "React: concepts"
-          contents: 
-            - react/react.qmd
-
+        - vocabulary/vocabulary.qmd                
+  
+  
+  page-footer: 
+    background: turquoise
+    left: "[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)" 
+    center: "¡Hello World!" 
 
 
 format:
   html:
-    theme: cosmo
+    fontsize:  "1.0em"
+    theme:
+      light: default
+      dark: superhero
     css: styles.css
     toc: true
+    toc-depth: 5
+    email-obfuscation: javascript
+    
+execute:
+  cache: true
+  freeze: true

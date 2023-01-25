@@ -1,11 +1,44 @@
 ---
-title: "Java SE"
-
+title: "Java"
+margin-header: |
+  ![](/java/img/java.svg)
 ---
 
-# ¿Que es Java?
+📘 **¿Que es Java?**
 
-Java es un lenguaje de programación de alto nivel que se utiliza para crear aplicaciones de software para computadoras y dispositivos móviles. Es un lenguaje de programación orientado a objetos, lo que significa que se basa en la idea de "objetos" que tienen propiedades y métodos. Java también es un lenguaje de programación independiente de plataforma, lo que significa que el mismo código puede ejecutarse en diferentes sistemas operativos sin necesidad de cambios. Es ampliamente utilizado en la industria para desarrollar aplicaciones de escritorio, juegos y aplicaciones web.
+Java es un lenguaje de programación basado en clases y orientado a objetos, diseñado para tener la menor cantidad de dependencias de implementación posibles.
 
-# ¿Para que sirve Java?
+Su objetivo es, permitir que los desarrolladores de aplicaciones escriban el código una sola vez y que ese código pueda se ejecutado en cualquier lugar, esto es lo que denominan WORA (Write once, run anywhere? / Escribe una vez, corre en cualquier lugar).
 
+Esto significa que el código compilado de Java puede ejecutarse en cualquier plataforma que admita Java sin la necesidad de volver a ser compilado.
+
+Además, una vez que Java es combinado junto a otras muchas tecnologías como Spring, node js, Android, Hadoop, J2EE, etc. nos permite crear aplicaciones completas, robustas, escalables, portátiles y distribuidas.
+Java también promueve la integración continua y el control del código, a través de pruebas unitarias, utilizando herramientas como Selenium.
+
+**¿Cuál es la historia de Java?**
+
+El creador de Java es James Gosling. Gosling desarrolló originalmente Java con sus compañeros de Sun Microsystems a principios de la década de 1990. Inicialmente, el proyecto fue llamado ‘Oak’ y estaba formado por implementaciones similares a C y C ++.
+El nombre de Java, fue seleccionado más tarde, tras una lluvia de ideas y es el nombre de un grano de café cultivado en la isla de Java, en Indonesia. Java 1.0, la primera versión fue lanzada en 1995 con el lema de WORA.
+Más tarde, Oracle adquirió Sun Microsystems, y a partir de ahí; no ha habido vuelta atrás.
+La última versión de Java es Java 14 lanzada en Marzo de 2020.
+
+**¿¿Cuáles son las características de Java??**
+
+Java ofrece muchas características atractivas:
+
+Un lenguaje independiente de la plataforma.
+Una amplia biblioteca estándar que facilita la codificación. Puede crear una aplicación independiente completa utilizando Java.
+Java admite la asignación automática de memoria y la desasignación (llamada recolección de basura).
+Ofrece un gran rendimiento ya que Java admite multiproceso y concurrencia, lo que lo convierte en un lenguaje altamente interactivo y receptivo.
+Seguro y simple.
+
+**¿¿Cuáles son las características de Java??**
+
+Hay tres componentes principales de Java: JVM, JDK y JRE.
+JDK o Java Development Kit es donde los desarrolladores escriben su código y lo ejecutan a través de JRE o Java Runtime Environment.
+
+¿Cómo se traduce el código? Eso es a través de la máquina virtual Java (JVM). Con JVM, cualquier código escrito en Java (o en cualquier otro idioma) se puede traducir al código de bytes de Java. Cualquier máquina puede implementar este código basado en el sistema operativo. JVM reside dentro del JRE junto con los paquetes java (bibliotecas).
+
++ JDK: Herramientas de desarrollo JRE + como intérprete (cargador de clases), compilador (javac), archivos jar (paquete y archivo) y javadocs.
++ JVM: La máquina abstracta donde se ejecutan los bytecodes de Java. Consiste en un documento de especificación que describe la implementación de JVM, el programa de implementación real y la instancia de JVM (tiempo de ejecución) donde puede ejecutar su programa principal.
++ JRE: Implementación física (instancia de tiempo de ejecución) de JVM. Contiene los paquetes de la biblioteca y los archivos de soporte que JVM usa para ejecutar un programa.
