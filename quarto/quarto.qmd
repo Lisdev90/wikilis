@@ -70,4 +70,4 @@ varias líneas
 
 **8. Imágenes:**
 
-[Quarto](https://quarto.org)
+[![Caption](elephant.png)](https://quarto.org)
