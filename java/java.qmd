@@ -39,6 +39,6 @@ JDK o Java Development Kit es donde los desarrolladores escriben su código y lo
 
 ¿Cómo se traduce el código? Eso es a través de la máquina virtual Java (JVM). Con JVM, cualquier código escrito en Java (o en cualquier otro idioma) se puede traducir al código de bytes de Java. Cualquier máquina puede implementar este código basado en el sistema operativo. JVM reside dentro del JRE junto con los paquetes java (bibliotecas).
 
-+ JDK: Herramientas de desarrollo JRE + como intérprete (cargador de clases), compilador (javac), archivos jar (paquete y archivo) y javadocs.
-+ JVM: La máquina abstracta donde se ejecutan los bytecodes de Java. Consiste en un documento de especificación que describe la implementación de JVM, el programa de implementación real y la instancia de JVM (tiempo de ejecución) donde puede ejecutar su programa principal.
-+ JRE: Implementación física (instancia de tiempo de ejecución) de JVM. Contiene los paquetes de la biblioteca y los archivos de soporte que JVM usa para ejecutar un programa.
++ **JDK:** Herramientas de desarrollo JRE + como intérprete (cargador de clases), compilador (javac), archivos jar (paquete y archivo) y javadocs.
++ **JVM:** La máquina abstracta donde se ejecutan los bytecodes de Java. Consiste en un documento de especificación que describe la implementación de JVM, el programa de implementación real y la instancia de JVM (tiempo de ejecución) donde puede ejecutar su programa principal.
++ **JRE:** Implementación física (instancia de tiempo de ejecución) de JVM. Contiene los paquetes de la biblioteca y los archivos de soporte que JVM usa para ejecutar un programa.
