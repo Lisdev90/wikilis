@@ -43,8 +43,8 @@ format:
   html:
     fontsize:  "1.0em"
     theme:
-      light: default
-      dark: superhero
+      light: sketchy
+      dark: materia
     css: styles.css
     toc: true
     toc-depth: 5
