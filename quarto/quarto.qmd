@@ -4,3 +4,70 @@ title: "Quarto"
 ---
 
 # ¿Que es Quarto?
+
+Quarto Markdown es una forma de agregar formatos como encabezados, negritas, cursivas, listas… a un texto sin formato. En principio se creó como una alternativa a HTML más simple, y que gente sin mucho conocimiento de este lenguaje de programación pudiese crear páginas web. Pero con el tiempo, se convirtió en un sistema de escritura minimalista con el que poder escribir sin muchas preocupaciones, y que puede ser exportados a otros sitios con facilidad.
+
+Al tener una sintaxis más simple que HTML, es mucho más sencillo de aprender. No hay que preocuparse por ir abriendo y cerrando tags. Y como no tiene los típicos menús contextuales de los editores de texto clásicos, se puede escribir en un entorno con menos distracciones. Ideal para aquellos que pasan mucho de su tiempo escribiendo textos.
+
+## ¿Por qué debería incorporarlo a mi flujo de trabajo?
+
+Si escribes habitualmente para algún sitio web, ya sea en tu sitio personal o un medio periodístico, por ejemplo, Markdown es un gran aliado. Pero no solo eso. Aquí tienes algunas de las cosas que podrás hacer con Markdown:
+
+- Escribir emails con un formato determinado, y no tener que hacerlo dentro de la aplicación de correo.
+- Crear listas To-Do, ya que cualquier programa especializado en esta tarea lee este tipo de archivos.
+- Crear y organizar notas.
+
+Y , por supuesto, poder escribir en una web sin tener conocimientos de HTML. `Desde el punto de vista de la productividad, quarto es muy útil porque se centra en lo importante: la escritura.`Una vez aprendas a usarlo, podrás dar formato a tus textos sin tener que tocar el ratón. No tendrás que separar nunca más las manos del teclado.
+
+### Ejemplos de sintaxis
+
+Lo que sigue no es un listado exhaustivo de la ]*sintaxis de Quarto.* En muchos casos, se puede conseguir un efecto particular usando diferentes estilos de sintaxis.
+
+Los caracteres que serían interpretados por quarto como comandos de formateado se interpretan literalmente si se precede por una barra invertida; por ejemplo la secuencia '\*' mostraría un asterisco en lugar de empezar una sección de texto enfatizado. Un bloque de HTML crudo no se verá alterado por quarto, pero los comandos de quarto insertados dentro de un elemento de bloque de HTML crudo no serán procesados.
+
+**1. Saltos de línea:** Los saltos de línea se generan cuando se encuentran dos espacios juntos, ejemplo:
+
+"Quien fue a Santiago,  
+perdió su clase de redes"
+
+**2. Encabezados:** Los encabezados se generan cuando se encuentra una almohadilla antes de texto, ejemplo:
+
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+
+**3. Citas:** Para citar solo es necesario escribir una cuña antes del texto, ejemplo:
+
+> La vida es muy corta para aprender alemán. -Tad Marburg
+
+**4. Texto con énfasis:** Agregar un asterisco para cursiva y dos para negrita, ejemplo:
+
+- *énfasis* (cursiva)
+
+- **énfasis fuerte** (negrita)
+
+**5. Código:** Se utiliza el acento grave para identificar código, y corchetes para identificar el lenguaje de programación, ejemplo:
+
+`Código`
+``` [language]
+Código en 
+varias líneas
+```
+**6. Listas:**
+
+* Un elemento en una lista no ordenada
+* Otro elemento en una lista
+
+1. Elemento en una lista enumerada u ordenada.
+2. Otro elemento
+
+**7. Enlaces:**
+
+[Enlace en Quarto]([URL "Título del enlace](https://quarto.org/docs/reference/projects/websites.html)")
+
+**8. Imágenes:**
+
+[Quarto](https://quarto.org)
