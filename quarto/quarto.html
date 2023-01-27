@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Wiki Lis - Java</title>
+<title>Wiki Lis - Quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,17 +131,40 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="..\java/img/java.svg" class="img-fluid"></p>
-</div></div>
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#que-es-quarto" id="toc-que-es-quarto" class="nav-link active" data-scroll-target="#que-es-quarto">¿Que es Quarto?</a>
+  <ul>
+  <li><a href="#por-qué-debería-incorporarlo-a-mi-flujo-de-trabajo" id="toc-por-qué-debería-incorporarlo-a-mi-flujo-de-trabajo" class="nav-link" data-scroll-target="#por-qué-debería-incorporarlo-a-mi-flujo-de-trabajo">¿Por qué debería incorporarlo a mi flujo de trabajo?</a>
+  <ul>
+  <li><a href="#ejemplos-de-sintaxis" id="toc-ejemplos-de-sintaxis" class="nav-link" data-scroll-target="#ejemplos-de-sintaxis">Ejemplos de sintaxis</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#h1" id="toc-h1" class="nav-link" data-scroll-target="#h1">h1</a>
+  <ul>
+  <li><a href="#h2" id="toc-h2" class="nav-link" data-scroll-target="#h2">h2</a>
+  <ul>
+  <li><a href="#h3" id="toc-h3" class="nav-link" data-scroll-target="#h3">h3</a>
+  <ul class="collapse">
+  <li><a href="#h4" id="toc-h4" class="nav-link" data-scroll-target="#h4">h4</a>
+  <ul class="collapse">
+  <li><a href="#h5" id="toc-h5" class="nav-link" data-scroll-target="#h5">h5</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Lisdev90/edit/main/quarto/quarto.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/Lisdev90/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Java</h1>
+<h1 class="title">Quarto</h1>
 </div>
 
 
@@ -156,26 +179,81 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>📘 <strong>¿Que es Java?</strong></p>
-<p>Java es un lenguaje de programación basado en clases y orientado a objetos, diseñado para tener la menor cantidad de dependencias de implementación posibles.</p>
-<p>Su objetivo es, permitir que los desarrolladores de aplicaciones escriban el código una sola vez y que ese código pueda se ejecutado en cualquier lugar, esto es lo que denominan WORA (Write once, run anywhere? / Escribe una vez, corre en cualquier lugar).</p>
-<p>Esto significa que el código compilado de Java puede ejecutarse en cualquier plataforma que admita Java sin la necesidad de volver a ser compilado.</p>
-<p>Además, una vez que Java es combinado junto a otras muchas tecnologías como Spring, node js, Android, Hadoop, J2EE, etc. nos permite crear aplicaciones completas, robustas, escalables, portátiles y distribuidas. Java también promueve la integración continua y el control del código, a través de pruebas unitarias, utilizando herramientas como Selenium.</p>
-<p><strong>¿Cuál es la historia de Java?</strong></p>
-<p>El creador de Java es James Gosling. Gosling desarrolló originalmente Java con sus compañeros de Sun Microsystems a principios de la década de 1990. Inicialmente, el proyecto fue llamado ‘Oak’ y estaba formado por implementaciones similares a C y C ++. El nombre de Java, fue seleccionado más tarde, tras una lluvia de ideas y es el nombre de un grano de café cultivado en la isla de Java, en Indonesia. Java 1.0, la primera versión fue lanzada en 1995 con el lema de WORA. Más tarde, Oracle adquirió Sun Microsystems, y a partir de ahí; no ha habido vuelta atrás. La última versión de Java es Java 14 lanzada en Marzo de 2020.</p>
-<p><strong>¿¿Cuáles son las características de Java??</strong></p>
-<p>Java ofrece muchas características atractivas:</p>
-<p>Un lenguaje independiente de la plataforma. Una amplia biblioteca estándar que facilita la codificación. Puede crear una aplicación independiente completa utilizando Java. Java admite la asignación automática de memoria y la desasignación (llamada recolección de basura). Ofrece un gran rendimiento ya que Java admite multiproceso y concurrencia, lo que lo convierte en un lenguaje altamente interactivo y receptivo. Seguro y simple.</p>
-<p><strong>¿¿Cuáles son las características de Java??</strong></p>
-<p>Hay tres componentes principales de Java: JVM, JDK y JRE. JDK o Java Development Kit es donde los desarrolladores escriben su código y lo ejecutan a través de JRE o Java Runtime Environment.</p>
-<p>¿Cómo se traduce el código? Eso es a través de la máquina virtual Java (JVM). Con JVM, cualquier código escrito en Java (o en cualquier otro idioma) se puede traducir al código de bytes de Java. Cualquier máquina puede implementar este código basado en el sistema operativo. JVM reside dentro del JRE junto con los paquetes java (bibliotecas).</p>
+<section id="que-es-quarto" class="level1">
+<h1>¿Que es Quarto?</h1>
+<p>Quarto Markdown es una forma de agregar formatos como encabezados, negritas, cursivas, listas… a un texto sin formato. En principio se creó como una alternativa a HTML más simple, y que gente sin mucho conocimiento de este lenguaje de programación pudiese crear páginas web. Pero con el tiempo, se convirtió en un sistema de escritura minimalista con el que poder escribir sin muchas preocupaciones, y que puede ser exportados a otros sitios con facilidad.</p>
+<p>Al tener una sintaxis más simple que HTML, es mucho más sencillo de aprender. No hay que preocuparse por ir abriendo y cerrando tags. Y como no tiene los típicos menús contextuales de los editores de texto clásicos, se puede escribir en un entorno con menos distracciones. Ideal para aquellos que pasan mucho de su tiempo escribiendo textos.</p>
+<section id="por-qué-debería-incorporarlo-a-mi-flujo-de-trabajo" class="level2">
+<h2 class="anchored" data-anchor-id="por-qué-debería-incorporarlo-a-mi-flujo-de-trabajo">¿Por qué debería incorporarlo a mi flujo de trabajo?</h2>
+<p>Si escribes habitualmente para algún sitio web, ya sea en tu sitio personal o un medio periodístico, por ejemplo, Markdown es un gran aliado. Pero no solo eso. Aquí tienes algunas de las cosas que podrás hacer con Markdown:</p>
 <ul>
-<li><strong>JDK:</strong> Herramientas de desarrollo JRE + como intérprete (cargador de clases), compilador (javac), archivos jar (paquete y archivo) y javadocs.</li>
-<li><strong>JVM:</strong> La máquina abstracta donde se ejecutan los bytecodes de Java. Consiste en un documento de especificación que describe la implementación de JVM, el programa de implementación real y la instancia de JVM (tiempo de ejecución) donde puede ejecutar su programa principal.</li>
-<li><strong>JRE:</strong> Implementación física (instancia de tiempo de ejecución) de JVM. Contiene los paquetes de la biblioteca y los archivos de soporte que JVM usa para ejecutar un programa.</li>
+<li>Escribir emails con un formato determinado, y no tener que hacerlo dentro de la aplicación de correo.</li>
+<li>Crear listas To-Do, ya que cualquier programa especializado en esta tarea lee este tipo de archivos.</li>
+<li>Crear y organizar notas.</li>
 </ul>
+<p>Y , por supuesto, poder escribir en una web sin tener conocimientos de HTML. <code>Desde el punto de vista de la productividad, quarto es muy útil porque se centra en lo importante: la escritura.</code>Una vez aprendas a usarlo, podrás dar formato a tus textos sin tener que tocar el ratón. No tendrás que separar nunca más las manos del teclado.</p>
+<section id="ejemplos-de-sintaxis" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplos-de-sintaxis">Ejemplos de sintaxis</h3>
+<p>Lo que sigue no es un listado exhaustivo de la ]<em>sintaxis de Quarto.</em> En muchos casos, se puede conseguir un efecto particular usando diferentes estilos de sintaxis.</p>
+<p>Los caracteres que serían interpretados por quarto como comandos de formateado se interpretan literalmente si se precede por una barra invertida; por ejemplo la secuencia ‘*’ mostraría un asterisco en lugar de empezar una sección de texto enfatizado. Un bloque de HTML crudo no se verá alterado por quarto, pero los comandos de quarto insertados dentro de un elemento de bloque de HTML crudo no serán procesados.</p>
+<p><strong>1. Saltos de línea:</strong> Los saltos de línea se generan cuando se encuentran dos espacios juntos, ejemplo:</p>
+<p>“Quien fue a Santiago,<br>
+perdió su clase de redes”</p>
+<p><strong>2. Encabezados:</strong> Los encabezados se generan cuando se encuentra una almohadilla antes de texto, ejemplo:</p>
+</section>
+</section>
+</section>
+<section id="h1" class="level1">
+<h1>h1</h1>
+<section id="h2" class="level2">
+<h2 class="anchored" data-anchor-id="h2">h2</h2>
+<section id="h3" class="level3">
+<h3 class="anchored" data-anchor-id="h3">h3</h3>
+<section id="h4" class="level4">
+<h4 class="anchored" data-anchor-id="h4">h4</h4>
+<section id="h5" class="level5">
+<h5 class="anchored" data-anchor-id="h5">h5</h5>
+<section id="h6" class="level6">
+<h6 class="anchored" data-anchor-id="h6">h6</h6>
+<p><strong>3. Citas:</strong> Para citar solo es necesario escribir una cuña antes del texto, ejemplo:</p>
+<blockquote class="blockquote">
+<p>La vida es muy corta para aprender alemán. -Tad Marburg</p>
+</blockquote>
+<p><strong>4. Texto con énfasis:</strong> Agregar un asterisco para cursiva y dos para negrita, ejemplo:</p>
+<ul>
+<li><p><em>énfasis</em> (cursiva)</p></li>
+<li><p><strong>énfasis fuerte</strong> (negrita)</p></li>
+</ul>
+<p><strong>5. Código:</strong> Se utiliza el acento grave para identificar código, y corchetes para identificar el lenguaje de programación, ejemplo:</p>
+<p><code>Código</code></p>
+<pre class="[language]"><code>Código en 
+varias líneas</code></pre>
+<p><strong>6. Listas:</strong></p>
+<ul>
+<li>Un elemento en una lista no ordenada</li>
+<li>Otro elemento en una lista</li>
+</ul>
+<ol type="1">
+<li>Elemento en una lista enumerada u ordenada.</li>
+<li>Otro elemento</li>
+</ol>
+<p><strong>7. Enlaces:</strong></p>
+<p><a href="[URL" title="Título del enlace](https://quarto.org/docs/reference/projects/websites.html)">Enlace en Quarto</a></p>
+<p><strong>8. Imágenes:</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://quarto.org"><img src="elephant.png" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">Caption</figcaption><p></p>
+</figure>
+</div>
 
 
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
