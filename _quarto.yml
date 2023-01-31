@@ -15,12 +15,9 @@ website:
   repo-actions: [edit, issue]
 
   navbar:
-    background: turquoise
+    background: teal
     style: "floating"
     search: true
-    right: 
-      - LinkedIn
-      - Twitter
           
     left:
       - text: Home
@@ -34,7 +31,7 @@ website:
   
   
   page-footer: 
-    background: turquoise
+    background: teal
     left: "[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)" 
     center: "¡Hello World!" 
 
@@ -43,8 +40,8 @@ format:
   html:
     fontsize:  "1.0em"
     theme:
-      light: sketchy
-      dark: materia
+      light: pulse
+      dark: solar
     css: styles.css
     toc: true
     toc-depth: 5
