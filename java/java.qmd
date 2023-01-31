@@ -1,10 +1,10 @@
 ---
 title: "Java"
-margin-header: |
-  ![](/java/img/java.svg)
 ---
 
 📘 **¿Que es Java?**
+
+![](img/java.svg){width="20%"}
 
 Java es un lenguaje de programación basado en clases y orientado a objetos, diseñado para tener la menor cantidad de dependencias de implementación posibles.
 

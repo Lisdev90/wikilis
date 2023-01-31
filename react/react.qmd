@@ -5,6 +5,8 @@ title: "React"
 
 # ¿Que es React?
 
+![](img/react.svg){width="20%"}
+
 > Qué es React y los motivos por los que es una estupenda alternativa para el desarrollo de interfaces de usuario, o aplicaciones web completas del lado del cliente.
 
 

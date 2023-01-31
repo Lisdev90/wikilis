@@ -1,6 +1,9 @@
 ---
 title: "About"
 ---
+
+![](img/about.svg){width="10%"}
+
 ## Introduction
 This site has been done and been mantaining with four tools and several content sources: 
 
@@ -17,7 +20,8 @@ This site has been done and been mantaining with four tools and several content 
 ### Git
 **Git is a version control system that is used for tracking changes to files**, such as source code or documents. It is commonly used by software developers to manage their codebase, but it can also be used for other types of files.
 
-> Git allows users to create a **repository**, which is a collection of files that are managed by Git. Each time a change is made to a file in the repository, Git records the change in a new version of the file. This allows users to easily undo changes, compare different versions of a file, and collaborate with others on the same files.
+Git allows users to create a **repository**, which is a collection of files that are managed by Git. Each time a change is made to a file in the repository, Git records the change in a new version of the file. This allows users to easily undo changes, compare different versions of a file, and collaborate with others on the same files.
+
 Git also provides tools for **managing and merging changes made by different users**. This makes it possible for multiple people to work on the same files at the same time without overwriting each other's changes.
 
 Overall, Git is a **powerful and widely-used tool that is essential for anyone working on large or complex projects with multiple collaborators**. It allows users to easily track, manage, and share changes to their files, making it easier to develop and maintain software projects.

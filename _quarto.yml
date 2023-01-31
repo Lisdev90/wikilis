@@ -41,7 +41,7 @@ format:
     fontsize:  "1.0em"
     theme:
       light: pulse
-      dark: solar
+      dark: morph
     css: styles.css
     toc: true
     toc-depth: 5

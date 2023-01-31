@@ -2,6 +2,8 @@
 title: "Vocabulary"
 ---
 
+![](img/vocabulary.svg){width="10%"}
+
 [java se](/javase/se-what-basics) - java design-patterns - [java OOP](/javase/sse-what-principles) - [java object](/javase/se-concepts-objects) -  
 
 
