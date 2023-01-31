@@ -71,4 +71,6 @@ varias líneas
 
 **8. Imágenes:**
 
-[![Caption](elephant.png)](https://quarto.org)
+![(img/elephant.png){width="40%"}}
+
+![](img/elephant.png){width="40%"}

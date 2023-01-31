@@ -22,7 +22,7 @@ website:
     left:
       - text: Home
         menu:
-        - about.qmd
+        - about/about.qmd
         - java/java.qmd
         - react/react.qmd
         - scrum/scrum.qmd
