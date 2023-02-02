@@ -48,21 +48,3 @@ Once your code is on GitHub, **you can use GitHub Pages to create a website for 
 ## Be careful: these instructions are just a general overview
 Note that these instructions are just a general overview of how to use VisualCode and GitHub together. There are many other features and options that you can use to customize your workflow. For more detailed information, you can consult the documentation for VisualCode and GitHub.
 :::
-
-
-### Markdown examples
-
-Markdown is a lightweight markup language that is used to format text in a way that is easy to read and write. It is commonly used on the web to format blog posts and other types of content.
-
-To format text using Markdown, you use special characters and symbols to indicate the formatting that you want to apply. For example, to create a heading, you can use the # symbol followed by the text of the heading. To create a bullet list, you can use the - symbol at the beginning of each list item.
-
-Here is an example of how Markdown can be used to format a simple document, when this Markdown code is rendered, it will look like this::
-
-
-##### Heading 5
-
-This is a paragraph of text. It can include *italicized* or **bold** text, and you can create [links](http://www.example.com) to other web pages.
-
-- This is a bullet list
-- Each item in the list begins with a dash
-- You can nest lists by indenting the items

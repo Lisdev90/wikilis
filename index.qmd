@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-## Skills needed as a developer (2022)
+## Esto es una linea editada desde mi casa
 
 ::: {.summary}
 📘 **Developer skills summary**

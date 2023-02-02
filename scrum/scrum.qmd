@@ -16,7 +16,3 @@ Scrum también se utiliza para resolver situaciones en que **no se está entrega
 ## El proceso
 
 *En Scrum un proyecto se ejecuta en ciclos temporales cortos y de duración fija*(iteraciones que normalmente son de 2 semanas, aunque en algunos equipos son de 3 y hasta 4 semanas, límite máximo de feedback de producto real y reflexión). Cada iteración tiene que proporcionar un resultado completo, un incremento de producto final que sea susceptible de ser entregado con el mínimo esfuerzo al cliente cuando lo solicite.
-
-El proceso parte de la lista de objetivos/requisitos priorizada del producto, que actúa como plan del proyecto. En esta lista **el cliente (Product Owner)** prioriza los objetivos balanceando el valor que le aportan respecto a su coste (que el equipo estima considerando la Definición de Hecho) y quedan repartidos en iteraciones y entregas.
-
-Las actividades que se llevan a cabo en Scrum son las siguientes *(los tiempos indicados son para iteraciones de 2 semanas):*
