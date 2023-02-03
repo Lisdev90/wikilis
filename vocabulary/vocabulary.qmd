@@ -1,14 +1,12 @@
 ---
-title: "Vocabulary"
+title: "Vocabulario"
 ---
+## Vocabulario Scrum
 
-![](img/vocabulary.svg){width="8%"}
-
-[java se](/javase/se-what-basics) - java design-patterns - [java OOP](/javase/sse-what-principles) - [java object](/javase/se-concepts-objects) -  
-
-
-**Comments**: A multi-line comment begins with /*and ends with*/, and may span multiple lines. An end-of-line (single-line) comment begins with // and lasts till the end of the current line. Comments are NOT executable statements and are ignored by the compiler. But they provide useful explanation and documentation. I strongly suggest that you write comments liberally to explain your thought and logic.
-
-**Statement**: A programming statement performs a single piece of programming action. It is terminated by a semi-colon (;), just like an English sentence is ended with a period, as in Lines 6.
-
-**Block**: A block is a group of programming statements enclosed by a pair of braces {}. This group of statements is treated as one single unit. There are two blocks in the above program. One contains the body of the class Hello. The other contains the body of the main() method. There is no need to put a semi-colon after the closing brace.
+- Iterar: Repetir un proceso con mejoras y un time-box determinado.
+- Pique: Iteraciones cortas con un limite de tiempo en Scrum, generalmente de 2 a 4 semanas.
+- Objetivo de carrera: Un objetivo claro para el sprint a lograr.
+- Acumulación de sprint: Una lista priorizada de elementos en los que se trabajará durante el sprint.
+- Planificación de póquer: Una técnica de estimación basada en consenso utilizada en Scrum con esta serie para ponderar tareas: 1,2,3,5,8,13,21.
+- Maestro melé: Un facilitador que se asegura de que el equipo se adhiera a los principios de Scrum, enlace a la empresa.
+- Dueño del producto: Una persona responsable de la cartera de productos y sus prioridades, enlace al cliente.
