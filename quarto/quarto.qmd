@@ -74,3 +74,77 @@ varias líneas
 ![(img/elephant.png){width="40%"}}
 
 ![](img/elephant.png){width="40%"}
+
+**9. Tablas:**
+
+- [tables](https://quarto.org/docs/authoring/tables.html){.external}
+- [tablesgenerator](https://tablesgenerator.com/markdown_tables){.external}
+
+``` bash
+#| tables
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
+: Demonstration of pipe table syntax
+: Callouts looks {tbl-colwidths="[20,85]"}
+```
+
+**11. Callouts:**
+
+``` {.bash .code-overflow-wrap}
+::: {.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+::: {.callout-tip}
+## Tip With Caption
+This is an example of a callout with a caption.
+:::
+::: {.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+This is an example of a 'folded' caution callout that can be expanded by the user.
+You can use `collapse="true"` to collapse it by default or `collapse="false"` to make 
+a collapsible callout that is expanded by default.
+:::
+```
+
+[callouts](https://quarto.org/docs/authoring/callouts.html){.external}
+
+::: {.callout-note icon=false}
+
+## Pay Attention
+
+Using callouts is an effective way to highlight content that your reader give special consideration or attention.
+
+:::
+
+::: {.callout-tip collapse="false" layout-ncol=2 icon=false}
+:::
+
+**12. Mermaid:**
+
+Mermaid is a Javascript based diagramming and charting tool that uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams.
+
+Above we demonstrated a flowchart created with Mermaid, here is a sequence diagram (also embedded using a {mermaid} executable cell):
+
+For example, here we embed a flowchart created using Mermaid:
+
+{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+
+
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+

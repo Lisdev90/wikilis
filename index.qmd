@@ -2,8 +2,6 @@
 title: "Home"
 ---
 
-## Esto es una linea editada desde mi casa
-
 ::: {.summary}
 📘 **Developer skills summary**
 
