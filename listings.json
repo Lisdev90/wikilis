@@ -1,17 +1,11 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/about/about.html",
-      "/java/java.html",
-      "/quarto/quarto.html",
-      "/react/react.html",
-      "/scrum/scrum.html",
-      "/vocabulary/vocabulary.html"
-    ]
-  },
-  {
     "listing": "/quarto/quarto.html",
-    "items": []
+    "items": [
+      "/index.html",
+      "/vocabulary/vocabulary.html",
+      "/scrum/scrum.html",
+      "/about/about.html"
+    ]
   }
 ]
