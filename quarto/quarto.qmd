@@ -20,6 +20,23 @@ Si escribes habitualmente para algún sitio web, ya sea en tu sitio personal o u
 
 Y , por supuesto, poder escribir en una web sin tener conocimientos de HTML. `Desde el punto de vista de la productividad, quarto es muy útil porque se centra en lo importante: la escritura.`Una vez aprendas a usarlo, podrás dar formato a tus textos sin tener que tocar el ratón. No tendrás que separar nunca más las manos del teclado.
 
+### OJS:
+
+OJS code cells {ojs} behave a bit differently than cells in traditional notebooks, and have many options available to control their display and layout.
+
+Observable is a platform for publishing and sharing interactive data-driven documents, an online editor for composing, cells are executed in a sequence, with outputs being generated and displayed as part of the notebook, changes made to cells can be re-executed, updated in real-time.
+
+#### Example 2: Histiogram
+
+- [link](https://observablehq.com/@observablehq/observable-javascript)
+
+```{ojs}
+height = 250
+numbers = Float64Array.from({length: 1000}, d3.randomNormal())
+import {chart as histogram} with {numbers as data, height} from "@d3/histogram@261"
+histogram
+```
+
 ### Ejemplos de sintaxis
 
 Lo que sigue no es un listado exhaustivo de la ]*sintaxis de Quarto.* En muchos casos, se puede conseguir un efecto particular usando diferentes estilos de sintaxis.
@@ -147,7 +164,6 @@ flowchart LR
   C --> D[Result one]
   C --> E[Result two]
 ```
-
 
 **13. Listing-Table:**
 
