@@ -75,7 +75,7 @@ varias líneas
 
 ![](img/elephant.png){width="40%"}
 
-**9. Tablas:**
+**9. Table:**
 
 - [tables](https://quarto.org/docs/authoring/tables.html){.external}
 - [tablesgenerator](https://tablesgenerator.com/markdown_tables){.external}
@@ -147,3 +147,35 @@ flowchart LR
   C --> D[Result one]
   C --> E[Result two]
 ```
+
+
+**13. Listing-Table:**
+
+Listings enable you to automatically generate the contents of a page (or region of a page) from a list of Quarto documents or other custom data. You can enable listings on a page using the listing option in the document front matter, for example:
+---
+listing:
+    id: articles-table-listing
+    contents:
+        - "../*.qmd"
+        - "../javase/*.qmd"
+        -  "../linux/*.qmd"
+        - "../markup/*.qmd"
+        - "../vocabulary/*.qmd"
+        - "../scrum/*.qmd"
+        - "../spring/*.qmd"
+        - "../springboot*.qmd"
+        - "../devops/*.qmd"
+        - "../reactjs/*.qmd"
+        - "../about/*.qmd"
+        - "../ifcd0210/*qmd"
+    sort:
+        - "file-modified desc"
+        - "categories"
+    type: table
+    image-align: left
+    fields: [image, categories, title, reading-time, file-modified]
+    table-hover: true
+    date-format: full
+    categories: cloud
+    image-height: 30px
+---
